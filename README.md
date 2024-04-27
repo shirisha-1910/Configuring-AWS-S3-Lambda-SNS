@@ -1,4 +1,4 @@
-# Configuring-AWS-S3-Lambda-SNS
+# Configuring AWS-S3 Lambda SNS
 
 # AWS S3 Upload Notification System
 
