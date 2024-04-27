@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     # Send notification (You can use any notification service here like SNS, SES, etc.)
     sns_client = boto3.client('sns')
     sns_client.publish(
-        TopicArn='YOUR_SNS_TOPIC_ARN',
+        TopicArn='arn:aws:s3:::sns-bucket97543',
         Message=notification_message,
         Subject='New Object Uploaded to S3'
     )
